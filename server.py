@@ -16,5 +16,5 @@ def api(github_username):
     if data is not None:
         data.sort(key=lambda x: int(x["stargazers_count"]),reverse=True)
         data = data[0:5]
-        return render_template('index.html', data=data)
+        return render_template('table.html', data=data)
     return 'error'
