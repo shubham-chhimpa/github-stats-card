@@ -8,7 +8,6 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 
 
-
 @app.route('/api/<github_username>')
 def api(github_username):
     db.DataBase.refresh(github_username)
