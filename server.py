@@ -27,7 +27,7 @@ def api(github_username):
             stroke="#E4E2E2"
     />
 
-    <text x="100" y="20" style="fill:black;font-size:16">Shubham Chhimpa's GitHub Stats</text>
+    <text x="100" y="20" style="fill:black;font-size:16">Shubham Chhimpa's Top Repos</text>
     <line x1="0" y1="40" x2="500" y2="40" style="stroke:rgb(255,0,0);stroke-width:1"/>
 
     <text x="20" y="60" style="fill:black;">Repo (📂)</text>
